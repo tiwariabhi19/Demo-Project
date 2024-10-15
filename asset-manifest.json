@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tiwariabhi19/Demo-Project/static/css/main.cea45990.css",
+    "main.js": "/tiwariabhi19/Demo-Project/static/js/main.dcd28106.js",
+    "static/js/453.64512fd7.chunk.js": "/tiwariabhi19/Demo-Project/static/js/453.64512fd7.chunk.js",
+    "index.html": "/tiwariabhi19/Demo-Project/index.html",
+    "main.cea45990.css.map": "/tiwariabhi19/Demo-Project/static/css/main.cea45990.css.map",
+    "main.dcd28106.js.map": "/tiwariabhi19/Demo-Project/static/js/main.dcd28106.js.map",
+    "453.64512fd7.chunk.js.map": "/tiwariabhi19/Demo-Project/static/js/453.64512fd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cea45990.css",
+    "static/js/main.dcd28106.js"
+  ]
+}
