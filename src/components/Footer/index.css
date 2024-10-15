@@ -3,13 +3,12 @@
   color: white;
   padding: 20px;
   text-align: center;
-  width: 100%; /* Ensure footer spans the full width */
-  position: relative; /* Adjust position */
-}
+  width: 100%; 
+  position: relative;
 
 @media (max-width: 480px) {
   .footer {
-    padding: 15px; /* Adjust footer padding for mobile */
-    font-size: 0.8rem; /* Reduce font size on smaller devices */
+    padding: 15px; 
+    font-size: 0.8rem; 
   }
 }
