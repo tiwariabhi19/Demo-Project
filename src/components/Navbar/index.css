@@ -1,0 +1,61 @@
+.navbar {
+  background-color: #333;
+  width: 100%; /* Ensure the navbar spans the full width */
+  padding: 15px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0; /* Remove any padding */
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column; /* Stack items vertically for tablet view */
+    align-items: center;
+  }
+
+  .navbar li {
+    margin: 10px 0; /* Add vertical spacing between items */
+  }
+
+  .navbar a {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+  .navbar ul {
+    flex-direction: column; /* Stack items vertically for mobile view */
+    align-items: center;
+  }
+
+  .navbar li {
+    margin: 8px 0;
+  }
+
+  .navbar a {
+    font-size: 0.9rem; /* Further reduce font size for mobile */
+  }
+
+  .navbar {
+    padding: 10px; /* Reduce padding on mobile */
+  }
+}
