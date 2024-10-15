@@ -84,9 +84,8 @@ const Slider = () => {
             />
           </label>
 
-          {/* Add Google reCAPTCHA widget */}
           <ReCAPTCHA
-            sitekey={process.env.REACT_APP_SITE_KEY} // Replace with your Google reCAPTCHA site key
+            sitekey={process.env.REACT_APP_SITE_KEY} 
             onChange={onCaptchaChange}
           />
 
