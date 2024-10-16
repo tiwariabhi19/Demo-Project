@@ -3,12 +3,13 @@
   color: white;
   padding: 20px;
   text-align: center;
-  width: 100%; 
+  width: 100%;
   position: relative;
+}
 
 @media (max-width: 480px) {
   .footer {
-    padding: 15px; 
-    font-size: 0.8rem; 
+    padding: 15px;
+    font-size: 0.8rem;
   }
 }
