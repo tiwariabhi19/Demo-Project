@@ -33,7 +33,6 @@ const Slider = () => {
     alert(`Form submitted. Name: ${formData.name}, Email: ${formData.email}`);
   };
 
-  // Function to verify captcha
   const onCaptchaChange = (value) => {
     if (value) {
       setCaptchaVerified(true);
@@ -84,9 +83,8 @@ const Slider = () => {
             />
           </label>
 
-          {/* Add Google reCAPTCHA widget */}
           <ReCAPTCHA
-            sitekey={process.env.REACT_APP_SITE_KEY} // Replace with your Google reCAPTCHA site key
+            sitekey={process.env.REACT_APP_SITE_KEY}
             onChange={onCaptchaChange}
           />
 
