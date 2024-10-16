@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 
 import "./index.css";
+
 const Slider = () => {
   const [slide, setSlide] = useState(false);
   const [formData, setFormData] = useState({ name: "", email: "" });

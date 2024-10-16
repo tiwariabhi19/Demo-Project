@@ -1,6 +1,6 @@
 .navbar {
   background-color: #333;
-  width: 100%; /* Ensure the navbar spans the full width */
+  width: 100%; 
   padding: 15px;
 }
 
@@ -8,7 +8,7 @@
   display: flex;
   list-style: none;
   justify-content: center;
-  padding: 0; /* Remove any padding */
+  padding: 0; 
 }
 
 .navbar li {
@@ -27,23 +27,23 @@
 
 @media (max-width: 768px) {
   .navbar ul {
-    flex-direction: column; /* Stack items vertically for tablet view */
+    flex-direction: column; 
     align-items: center;
   }
 
   .navbar li {
-    margin: 10px 0; /* Add vertical spacing between items */
+    margin: 10px 0; 
   }
 
   .navbar a {
-    font-size: 1rem; /* Adjust font size for smaller screens */
+    font-size: 1rem; 
   }
 }
 
 /* Mobile View */
 @media (max-width: 480px) {
   .navbar ul {
-    flex-direction: column; /* Stack items vertically for mobile view */
+    flex-direction: column; 
     align-items: center;
   }
 
@@ -52,10 +52,10 @@
   }
 
   .navbar a {
-    font-size: 0.9rem; /* Further reduce font size for mobile */
+    font-size: 0.9rem; 
   }
 
   .navbar {
-    padding: 10px; /* Reduce padding on mobile */
+    padding: 10px; 
   }
 }
